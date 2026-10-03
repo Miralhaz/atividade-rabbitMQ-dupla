@@ -1,0 +1,29 @@
+{
+  "name": "pedido-listener",
+  "version": "1.0.0",
+  "description": "RabbitMQ listener para processamento de pedidos - Entrega 2º ano Ciência da Computação",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test tests/**/*.test.js",
+    "db:init": "node src/db/init.js"
+  },
+  "keywords": [
+    "rabbitmq",
+    "amqp",
+    "listener",
+    "consumer",
+    "pedido",
+    "mensageria"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "dotenv": "^16.4.5",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {}
+}
