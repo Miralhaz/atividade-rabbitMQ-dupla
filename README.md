@@ -2,7 +2,7 @@
 
 ## Dupla de projeto - Pedro Rico e Lucas Miralha
 
-## Pedido Listener - Trabalho de Mensageria (2º ano CC)
+## Pedido Listener - Trabalho de Mensageria (2º CCOB)
 
 **O que é:** Consumer RabbitMQ em Node.js que escuta a fila `queue_pedido`, valida JSON e persiste em 3 tabelas PostgreSQL (`pedido`, `item_pedido`, `evento_pedido`).
 
